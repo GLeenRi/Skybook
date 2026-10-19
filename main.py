@@ -1,9 +1,9 @@
 import flet as ft
 
 
-# =========================
+
 # ДАННЫЕ САМОЛЕТОВ
-# =========================
+
 
 aircrafts = [
 
@@ -1943,9 +1943,9 @@ class SkyBook:
 
         self.refresh()
 
-        # =========================
+
         # ЭКРАН САМОЛЕТОВ
-        # =========================
+
 
         def show_aircraft(self, manufacturer):
 
@@ -2071,9 +2071,9 @@ class SkyBook:
             )
 
             self.refresh()
-    # =========================
+
     # ЭКРАН ЧЕК-ЛИСТА
-    # =========================
+
 
     def open_checklist(self, aircraft):
 
@@ -2345,9 +2345,9 @@ class SkyBook:
         def checklist_back(self):
 
             self.show_aircrafts()
-    # =========================
+
     # ЭКРАН САМОЛЕТОВ
-    # =========================
+
 
 
     def show_aircraft(self, manufacturer):
@@ -2479,9 +2479,9 @@ class SkyBook:
 
 
         self.refresh()
-# =========================
+
 # ЗАПУСК ПРИЛОЖЕНИЯ
-# =========================
+
 
 
 def main(page: ft.Page):
